@@ -36,9 +36,21 @@ let x = 0;
  */
 
 let number = 100;
-let number2 = '50';
+let number2 = '100';
 let helo = 'Hello';
 let sayHelo = 'Hello';
 
 let result = number !== number2;
-console.log(result);
+// console.log(result);
+
+// Operator AND
+console.log(true && true); // true
+console.log(true && false); // false
+console.log(false && true); // false
+console.log(false && false); // false
+
+// Operator OR
+console.log(true || true); // true
+console.log(true || false); // true
+console.log(false || true); // ture
+console.log(false || false); // false
