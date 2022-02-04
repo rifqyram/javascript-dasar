@@ -18,7 +18,7 @@ function sayHello(firstname, lastname) {
     }
 }
 
-// sayHello('Rifqi');
+sayHello('Rifqi');
 
 /**
  * Arrow Function
@@ -40,13 +40,13 @@ function sum(number1, number2) {
 
 // console.log(sum(10, 20));
 let resultSum = sum(10, 20);
-console.log(resultSum);
+// console.log(resultSum);
 
 const multiply = (number1, number2) => {
     return number1 * number2
 };
 
-let resultMultiply = multiply(10, 10);
+let resultMultiply = multiply('nama', '10');
 console.log(resultMultiply);
 
 console.log('==============================');
